@@ -19,7 +19,7 @@ function nowServing(katzDeli) {
 var line = [];
 
 function currentLine(katzDeli) {
-  let i = 0;
+  var i = 0;
   while (i < katzDeli.length) {
     line.push(` `+[i+1]+`. `  + katzDeli[i]);
     i++;
